@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-color: rgb(219, 180, 132);
+}
+
+header h1 {
+    font-size: 50px
+}
+
+#sobre_nos,
+#produtos,
+#contato {
+    background-color: rgb(209, 172, 126);
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;    
+}
+
+header .container,
+section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ilustracao {
+    margin: 32px 32px 0 0;
+    width: 450px;
+    border-radius: 5%;
+}
+
+.containers {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.containers h2 {
+    margin-left: 40%;
+    font-size: 30px;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.valor {
+    margin: 5px;
+}
+
+.articles img {
+    margin: 32px;
+    width: 250px;
+    border-radius: 5%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+header {
+    padding: 16px 0 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 56px;
+}
+
+section {
+    padding: 24px 0;
+}
+
+article button {
+    display: block;
+    width: 80%;
+    padding: 8px 0;
+    border: none;
+    background-color: #472b00;
+    color: #f7e0e0;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #744806;
+}
